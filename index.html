@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-image: url("back.jpg");
+            background-repeat: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            background-color:rgba(250, 235, 215, 0.402);
+            margin-bottom: 3%;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 12px 50px;
+            margin-top: 2%;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        nav ul li a:hover{
+            color:pink;
+            transition: 5s;
+        }
+
+        .container{
+            display:flex;
+            justify-content: space-around;
+            background-color:rgba(250, 235, 215, 0.402);
+            width: 100%;
+            min-height: 130px;
+        }
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-top: 5%;
+        }
+
+        .box1{
+            width: 30%;
+            margin-top: 5%;
+        }
+
+        h4{
+            margin-bottom: 2%;
+            color: white;
+        }
+
+        p{
+            color:white;
+        }
+
+        button{
+            color:white;
+            font-weight: bold;
+            padding: 1px 7px;
+            cursor: pointer;
+            border: 0;
+            border-radius: 5px;
+            background-color:rgba(250, 235, 215, 0.402);
+        }
+
+        button:hover{
+            color: black;
+            transition: 5s;
+        }
+
+        .Intro{
+            min-height: 370px;
+            margin-bottom: 1%;
+            display: flex;
+            width: 100%;
+        }
+        
+        .back{
+            width: 40%;
+            margin-left: 5%;
+            margin-right: 2%;
+            background-color:rgba(250, 235, 215, 0.402);
+            border-radius: 5px;
+        }
+
+        .back h2{
+            margin-top: 1.5%;
+            color:white;
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .back p{
+            margin-top: 1.5%;
+            color: white;
+            font-size: 18px;
+            margin-left: 2%;
+        }
+
+        .back img {
+            margin-top: 2%;
+            margin-left: 15%;
+            border-radius: 5px;
+        }
+
+        .loll{
+            width: 40%;
+            padding-left: 90px;
+            background-color:rgba(250, 235, 215, 0.402);
+            border-radius: 5px;
+        }
+
+        .loll h2{
+            text-align: center;
+            margin-top: 1.5%;
+            color:white;
+            font-size: 25px;
+        }
+
+        .loll p{
+            margin-top: 1.5%;
+            color: white;
+            font-size: 18px;
+        }
+
+        .loll img{
+            margin-top: 3%;
+            margin-left: 8%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="Logo.png" alt="Logo" width="7%">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="Services.html">Products</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+    <section class="Intro">
+          <div class="back"> 
+                <h2>Who we are </h2>
+                    <p>Bell's Pastries Shop is a leading commercial bakery creating <br>
+                    handy crafted breads and sweet treats from the finest ingredients.<br>
+                </p>
+                    <img src="13.jpg" alt="cake" width="70%">
+            </div>
+        <div class="loll">
+            <h2>Background</h2>
+            <p>In April 2019, My passion for pastries got me on a mission <br>
+                 to establish a bakery business for everyone who is a lover<br>
+                of freshly baked goods. My vision is to become a nation-wide<br>
+                Pastries bakery that provides fresh goods at all times.
+            </p>
+            <img src="12.jpg" alt="cake plate" width="65%">
+        </div>
+    </section>
+    <div class="container">
+            <div class="box">
+            <h4>Bell's Pastry Shop</h4>
+            <p>20 Moshoeshoe Road
+            <br/>
+                Maseru 100
+            </p>
+            </div>
+
+            <div class="box">
+                <h4>Join our Mailing List</h4>
+                <form>
+                    <input type="text" name="E-mail" placeholder="E-mail"> <button>SIGN UP</button>
+                </form>
+            </div>
+            <div class="box1">
+                <h4>Follow us:</h4>
+                <img src="facebook.png" alt="facebook" width="4%">
+                <img src="instagram.png" alt="Instagram" width="4%">
+                <img src="Twitter.png" alt="twitter" width="4%">
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-image: url("back.jpg");
+            background-repeat: cover;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            background-color:rgba(250, 235, 215, 0.402);
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 12px 50px;
+            margin-top: 2%;
+        }
+        nav ul li a{
+            color:white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        nav ul li a:hover{
+            color:pink;
+            transition: 5s;
+        }
+
+        .container{
+            display:flex;
+            justify-content: space-around;
+            background-color:rgba(250, 235, 215, 0.402);
+            width: 100%;
+            min-height: 130px;
+        }
+
+        .box{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin-top: 5%;
+        }
+
+        .box1{
+            width: 30%;
+            margin-top: 5%;
+        }
+
+        h4{
+            margin-bottom: 2%;
+            color: white;
+        }
+
+        p{
+            color:white;
+        }
+
+        button{
+            color:white;
+            font-weight: bold;
+            padding: 1px 7px;
+            cursor: pointer;
+            border: 0;
+            border-radius: 5px;
+            background-color:rgba(250, 235, 215, 0.402);
+        }
+
+        button:hover{
+            color: black;
+            transition: 5s;
+        }
+
+        h2{
+            text-align: center;
+            margin-top: 3%;
+            font-weight: bold;
+            color: white;
+        }
+
+        .cake {
+            margin-top: 3%;
+            display:flex;
+            justify-content: space-around;
+            width:100%;
+            min-height: 250px;
+        }
+
+        .one{
+            background-color:rgba(250, 235, 215, 0.402);
+            width: 30%;
+            border-radius: 15px;
+            padding-left: 150px;
+            padding-top: 20px;
+            position: relative;
+            overflow:hidden;
+            margin-bottom: 2%;
+        }
+        .one h3{
+            color: white;
+        }
+
+        .one p{
+            font-weight: bolder;
+            padding-top: 5px;
+        }
+
+        img{
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="Logo.png" alt="Logo" width="7%">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About us.html">About us</a></li>
+            <li><a href="Services.html">Products</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <h2>Cakes</h2>
+    <div class="cake">
+        <div class="one">
+            <h3>Chocolate and Vanilla Cake</h3>
+            <img src="1.jpg" alt="Chocolate cake" width="60%">
+            <p>Price: M150.00</p>
+        </div>
+        <div class="one">
+            <h3>Chocolate and Caramel Cake</h3>
+            <img src="2.jpg" alt="Caramel cake" width="50%">
+            <p>Price: M170.00</p>
+        </div>
+    </div>
+
+    <h2>Pies</h2>
+    <div class="cake">
+        <div class="one">
+            <h3>Triple berry Pie</h3>
+            <img src="8.jpg" alt="berry pie" width="50%">
+            <p>Price: M130.00</p>
+        </div>
+        <div class="one">
+            <h3>Lemon Pie</h3>
+            <img src="4.jpg" alt="Lemon pie" width="60%">
+            <p>Price: M110.00 </p>
+        </div>
+    </div>
+
+    <h2>Doughnuts</h2>
+    <div class="cake">
+        <div class="one">
+            <h3>Chocolate Frosted</h3>
+            <img src="5.jpg" alt="Chocolate Frosted" width="40%">
+            <p>Price: M130.00/5 litres</p>
+        </div>
+        <div class="one">
+            <h3>Assorted Frosted</h3>
+            <img src="6.jpg" alt="Assorted" width="60%">
+            <p>Price: M100/ 5 litres </p>
+        </div>
+    </div>
+    <div class="container">
+            <div class="box">
+            <h4>Bell's Pastry Shop</h4>
+            <p>20 Moshoeshoe Road
+            <br/>
+                Maseru 100
+            </p>
+            </div>
+            <div class="box">
+                <h4>Join our Mailing List</h4>
+                <form>
+                    <input type="text" name="E-mail" placeholder="E-mail"> <button>SIGN UP</button>
+                </form>
+            </div>
+            <div class="box1">
+                <h4>Follow us:</h4>
+                <img src="facebook.png" alt="facebook" width="4%">
+                <img src="instagram.png" alt="Instagram" width="4%">
+                <img src="Twitter.png" alt="twitter" width="4%">
+            </div>
+    </div>
+</body>
+</html>
