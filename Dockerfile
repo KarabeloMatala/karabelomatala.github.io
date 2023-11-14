@@ -10,4 +10,4 @@ EXPOSE 80
 
 HEALTHCHECK --interval=30s --timeout=5s CMD curl -f http://localhost/ || exit 1
 
-CMD ["nginx", "-g", "daemon off;"] 
+CMD ["nginx", "-g", "daemon off;"]
